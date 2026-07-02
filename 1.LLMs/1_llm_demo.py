@@ -1,16 +1,30 @@
-from langchain_openai import OpenAI
+
 from dotenv import load_dotenv
 
 load_dotenv()
 
-llm = OpenAI(model="gpt-3.5-turbo-instruct")
-# llm take string input and returns string output
-result = llm.invoke("What is the capital of India?") 
-print(result)
+# LangChain LLM Demo Using OpenAI
 
-## LLM using Gemini
+# from langchain_openai import OpenAI
+#
+# llm = OpenAI(
+#     model="gpt-3.5-turbo-instruct"
+# )
+#
+# # LLM takes a string as input and returns a string
+# result = llm.invoke("What is the capital of India?")
+# print(result)
+
+
+
+# LangChain LLM Demo Using OpenAI & Gemini (Same File)
+
 from langchain_google_genai import GoogleGenerativeAI
 
-llm = GoogleGenerativeAI(model="gemini-1.5-flash")
+llm = GoogleGenerativeAI(
+    model="gemini-1.5-flash"
+)
+
+# LLM takes a string as input and returns a string
 result = llm.invoke("What is the capital of India?")
 print(result)
