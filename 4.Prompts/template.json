@@ -1,0 +1,17 @@
+{
+    "name": null,
+    "input_variables": [
+        "length_input",
+        "paper_title",
+        "style_input"
+    ],
+    "optional_variables": [],
+    "output_parser": null,
+    "partial_variables": {},
+    "metadata": null,
+    "tags": null,
+    "template": "You are an expert AI assistant that summarizes academic research papers.\n\nSummarize the research paper titled \"{paper_title}\" following these rules:\n\n1. **Explanation Style:** {style_input}  \n2. **Summary Length:** {length_input}  \n\n### Content Requirements:\n- Include the main goals, contributions, and key findings of the paper.\n- If mathematical equations are present in the paper, include them and briefly explain them.\n- Where possible, explain concepts using simple, intuitive code snippets.\n- Use analogies to make complex ideas easier to understand.\n- If certain specific details are unavailable, state: \"This detail is not available in the provided paper\" \u2014 do not leave the section empty.\n- Ensure the explanation is clear, logically structured, and factually correct.\n\n### Output Format:\n- **Title**\n- **Summary**\n- **Key Points**\n- **Mathematical/Technical Details**\n- **Analogies/Examples**\n",
+    "template_format": "f-string",
+    "validate_template": true,
+    "_type": "prompt"
+}

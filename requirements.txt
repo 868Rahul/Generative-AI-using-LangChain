@@ -34,3 +34,9 @@ tiktoken
 faiss-cpu
 wikipedia
 youtube-transcript-api
+pydantic[email]
+grandalf
+
+# Deep Learning
+torch
+torchvision
