@@ -1,8 +1,13 @@
-# Langchain-Core
+# LangChain Core
 langchain
 langchain-core
 langchain-community
-langchain_experimental
+langchain-experimental
+
+# Vector Databases
+langchain-chroma
+chromadb
+faiss-cpu
 
 # OpenAI Integration
 langchain-openai
@@ -11,7 +16,7 @@ openai
 # Anthropic Integration
 langchain-anthropic
 
-# Google Gemini (PaLM) Integration
+# Google Gemini Integration
 langchain-google-genai
 google-generativeai
 
@@ -20,23 +25,26 @@ langchain-huggingface
 transformers
 sentence-transformers
 
-# Environment Variables Management
+# Environment Variables
 python-dotenv
 
-# Machine Learning Utilities
+# Machine Learning
 numpy
 scikit-learn
-
-pyPDF
-beautifulsoup4
-chromadb
-tiktoken
-faiss-cpu
-wikipedia
-youtube-transcript-api
-pydantic[email]
-grandalf
-
-# Deep Learning
 torch
 torchvision
+
+# Document Processing
+pypdf
+beautifulsoup4
+tiktoken
+
+# Data Sources
+wikipedia
+youtube-transcript-api
+
+# Validation
+pydantic[email]
+
+# Graph Visualization
+grandalf
